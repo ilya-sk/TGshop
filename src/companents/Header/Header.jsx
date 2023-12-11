@@ -8,7 +8,7 @@ const Header = () => {
 
     return (
         <div className={'header'}>
-            <Button onClick={onClose}>Закрыть</Button>
+            Добро пожаловать:
             <span className={'username'}>
                 {user?.username}
             </span>
