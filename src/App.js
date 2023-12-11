@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import "./App.css";
+import ProductList from "./companents/ProdList/ProductList";
 
 
 const tg = window.Telegram.WebApp;
@@ -13,7 +14,7 @@ tg.close()
   }
 
   return <div className="App">
-    <button onClick={onClose}>Закрыть</button>
+  <ProductList></ProductList>
     </div>;
 }
 
