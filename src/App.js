@@ -1,21 +1,24 @@
 import { useEffect } from "react";
 import "./App.css";
 import ProductList from "./companents/ProdList/ProductList";
-
+import Header from "./companents/Header/Header";
 
 const tg = window.Telegram.WebApp;
 
 function App() {
-  useEffect (() => {
+  useEffect(() => {
     tg.ready();
-  }, [])
+  }, []);
   const onClose = () => {
-tg.close()
-  }
+    tg.close();
+  };
 
-  return <div className="App">
-  <ProductList></ProductList>
-    </div>;
+  return (
+    <div className="App">
+      <Header/>
+      <ProductList/>
+    </div>
+  );
 }
 
 export default App;
