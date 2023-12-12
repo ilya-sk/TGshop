@@ -5,14 +5,14 @@ import {useTelegram} from "../../hooks/useTelegram";
 import {useCallback, useEffect} from "react";
 
 const products = [
-    {id: '1', title: 'Джинсы', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '2', title: 'Куртка', price: 12000, description: 'Зеленого цвета, теплая'},
-    {id: '3', title: 'Джинсы 2', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '4', title: 'Куртка 8', price: 122, description: 'Зеленого цвета, теплая'},
-    {id: '5', title: 'Джинсы 3', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '6', title: 'Куртка 7', price: 600, description: 'Зеленого цвета, теплая'},
-    {id: '7', title: 'Джинсы 4', price: 5500, description: 'Синего цвета, прямые'},
-    {id: '8', title: 'Куртка 5', price: 12000, description: 'Зеленого цвета, теплая'},
+    {id: '1', title: 'Платье', price: 250, description: '11-12 лет'},
+    {id: '2', title: 'Купальник', price: 100, description: '11-12 лет'},
+    {id: '3', title: 'Футболка', price: 100, description: 'Для мальчика 5-6 лет'},
+    {id: '4', title: 'Банты', price: 75, description: 'Белые 2шт.'},
+    {id: '5', title: 'Заколки', price: 75, description: 'Белые 2шт.'},
+    {id: '6', title: 'Шорты', price: 150, description: 'Розовые, для девочки 10-11 лет'},
+    {id: '7', title: 'Комбинизон', price: 150, description: 'Красный для девочки 10-11 лет'},
+    {id: '8', title: 'Брюки', price: 150, description: 'Размер 50'},
 ]
 
 const getTotalPrice = (items = []) => {
