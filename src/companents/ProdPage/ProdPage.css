@@ -1,14 +1,14 @@
-.product {
-  display: flex;
-  flex-direction: column;
+.productp {
+  /* display: flex;
+  flex-direction: column; */
   border: 1px solid var(--tg-theme-button-color);
   padding: 15px;
-  width: 170px;
+  width: 100%;
   justify-content: space-between;
 }
 
 
-.img {
+.imgp {
   width: 100%;
   background: lightgray;
   height: 100px;
@@ -16,20 +16,25 @@
   background: var(--tg-theme-button-color);
 }
 
-.title {
+.titlep {
   text-align: center;
 }
 
-.description {
+.descriptionp {
   text-align: center;
   font-size: 0.8em;
 }
 
-.price {
+.pricep {
   text-align: center;
 }
 
-.add-btn {
+.aboutp {
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.add-btnp {
   margin-top: 10px;
   width: 100%;
   border-radius: 32px;
