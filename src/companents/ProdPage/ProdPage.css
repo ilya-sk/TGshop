@@ -1,10 +1,11 @@
 .productp {
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   border: 1px solid var(--tg-theme-button-color);
   padding: 15px;
   width: 100%;
   justify-content: space-between;
+	align-items: center;
 }
 
 
@@ -34,11 +35,19 @@
 	font-size: 0.8em;
 }
 
+.textp {
+	text-align: center;
+	font-size: 0.8em;
+}
+
 .add-btnp {
   margin-top: 10px;
-  width: 100%;
+  width: 200px;
+	height: 50px;
   border-radius: 32px;
 background: var(--light-1, #40A1FF);
 color: white;
 box-shadow: 0px 9px 17px 0px rgba(64, 161, 255, 0.26);
+
+
 }
