@@ -14,7 +14,7 @@ const ProductPage = ({ match, products, className }) => {
       <p className={'pricep'}>Стоимость: {product.price} $</p>
       <p className={'aboutp'}>{product.about}</p>
 			<p className={'textp'}> Напишите нам в чат и мы вышлим Вам цветной католог, так же вы можете описать Ваши пожелания или Ваш бюджет и мы предложим Вам варианты.</p>
-      <Link to="https://t.me/SkIlyaA">
+      <Link to="https://t.me/IlyaSkaAl">
         <button className={'add-btnp'}>Перейти в чат Telegram</button>
       </Link>
     </div>
