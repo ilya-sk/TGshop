@@ -2,7 +2,7 @@ import React from 'react';
 import Button from "../Button/Button";
 import {useTelegram} from "../../hooks/useTelegram";
 import './Header.css';
-import logo from './logo.png'
+import logo from './logo.jpg'
 
 const Header = () => {
     const {user, onClose} = useTelegram();

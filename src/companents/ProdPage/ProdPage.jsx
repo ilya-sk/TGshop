@@ -8,12 +8,15 @@ const ProductPage = ({ match, products, className }) => {
   const product = products.find((prod) => prod.id === id);
   return product ? (
     <div className={'productp ' + className}>  
-      <h2 className={'titlep'}>{product.title}</h2>
+      <h1 className={'titlep'}>{product.title}</h1>
       <img className={'imgp'} src={product.image} alt={product.title} />
       <p className={'descriptionp'}>{product.description}</p>
-      <p className={'pricep'}>Стоимость: {product.price} $</p>
+      <h3 className={'pricep'}>Стоимость: {product.price} $</h3>
+      <h2 className={'program'}>Программа:</h2>
       <p className={'aboutp'}>{product.about}</p>
-			<p className={'textp'}> Напишите нам в чат и мы вышлим Вам цветной католог, так же вы можете описать Ваши пожелания или Ваш бюджет и мы предложим Вам варианты.</p>
+      <h2 className={'program'}>В стоимость входит:</h2>
+      <p className={'inpricep'}>{product.inprice}</p>
+			<p className={'textp'}>Подробнее раскажем в чате и предоставим дополнительную скидку для детей и больших групп</p>
       <Link to="https://t.me/IlyaSkaAl">
         <button className={'add-btnp'}>Перейти в чат Telegram</button>
       </Link>
