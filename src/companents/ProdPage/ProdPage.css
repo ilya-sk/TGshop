@@ -19,6 +19,21 @@
   }
 }
 
+@keyframes move {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
+
 
 .productp {
   display: flex;
@@ -32,16 +47,20 @@
 
 
 .imgp {
-  width: 100%;
   background: lightgray;
   height: 100px;
   margin: 0 auto;
   background: var(--tg-theme-button-color);
+  border: 3px solid var(--tg-theme-button-color); 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+  animation: move 5s linear infinite;
+  margin-bottom: 5px;
 }
 
 .titlep {
   text-align: center;
-  animation: pulse 2s infinite;
+
   
 }
 
@@ -51,7 +70,7 @@
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
-  animation: marquee 10s linear infinite;
+  /* animation: marquee 10s linear infinite; */
   margin-bottom: 10px;
 }
 
