@@ -23,7 +23,7 @@ const ProductPage = ({ match, products, className }) => {
         Подробнее раскажем в чате и предоставим дополнительную скидку для детей
         и больших групп
       </p>
-      <Link to="https://t.me/IlyaSkaAl">
+      <Link to="https://t.me/Deemooi">
         <button className={"add-btnp"}>Перейти в чат Telegram</button>
       </Link>
     
